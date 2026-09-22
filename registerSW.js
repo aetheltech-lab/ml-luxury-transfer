@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/ml-luxury-transfer/sw.js', { scope: '/ml-luxury-transfer/' })})}
